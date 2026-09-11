@@ -1,0 +1,64 @@
+<h1> Cotação de Seguro de Veículo </h1>
+
+<form>
+
+<fieldset>
+
+<legend>Condutor</legend>
+<label for="nome">Nome do Proprietário:</label>
+<input type="text" id="nome" name="Nome">
+<br><br>
+<label for="cnh"> CNH: </label>
+<input type="number" id="cnh" name="CNH"
+placeholder="00000-000">
+<br><br>
+<label for="data de emissão"> Data de Emissão da CNH: </label>
+<input type="date" id="data de emissão" name="Data de Emissão da CNH">
+<br><br>
+
+<label for="estado civil"> Estado Civil: </label>
+<br>
+<input type="radio" name="estado civil" value="estado">Solteiro
+<input type="radio" name="estado civil" value="estado">Casado
+<input type="radio" name="estado civil" value="estado">Divorciado
+<input type="radio" name="estado civil"value="estado">Viúvo
+<br>
+
+</fieldset>
+ 
+
+<fieldset>
+
+<legend>Veículo</legend>
+<label for="nome">Placa do Carro:</label>
+<input type="text" id="placa" name="Placa"
+placeholder="ABC - 1234">
+<label for="marca">Marca do veículo</label>
+<select id="marca" name="marca">
+<option value="marca">Flat</option>
+</select>
+<br><br>
+<label for="ano">Ano do modelo:</label>
+<input type="text" id="ano" name="Ano">
+
+
+
+</fieldset>
+
+
+<fieldset>
+<legend>Uso</legend>
+<p>Usa o carro para trabalho (Uber/Taxi)?</p>
+<input type="radio" name="carro para trabalho" value="carro">Sim
+<input type="radio" name="carro para trabalho" value="carro">Não
+<br><br>
+<input type="checkbox" id="possui rastreamento instalado" name="possui rastreamento instalado" value="Front-enpossui rastreamento instalado">
+<label for="possui rastreamento instalado">Possui rastreamento instalado</label>
+
+</fieldset>
+<br>
+<button type="submit">Solicitar Cotação</button>
+</form>
+
+</body>
+</html>

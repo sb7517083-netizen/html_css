@@ -1,0 +1,56 @@
+<h1> Finalizar Compra </h1>
+
+<form>
+
+<fieldset>
+
+<legend>Endereço de Entrega</legend>
+<label for="nome">Nome do Destinário</label>
+<input type="text" id="nome" name="Nome">
+<br><br>
+<label for="cep"> CEP </label>
+<input type="number" id="cep" name="CEP"
+placeholder="00000-000">
+<br><br>
+<label for="rua"> Rua: </label>
+<input type="text" id="rua" name="Rua">
+<br><br>
+<label for="numero"> Número: </label>
+<input type="number" id="numero" name="Número">
+<br><br>
+<label for="complemento"> Complemento: </label>
+<input type="text" id="complemento" name="Complemento">
+<br><br>
+
+</fieldset>
+
+<fieldset>
+<legend>Opções de entrega</legend>
+
+<label for="entrga">Periodo de entrega</label>
+<select id="entrega" name="entrega">
+<option value="indicacao">Manhã (08h-12h)</option>
+</select>
+<br><br>
+<p>Instruções de entrega:</p>
+<input type="radio" name="entrega" value="portaria">Deixar na portária
+<br>
+<input type="radio" name="entrega" value="entregar">Entregar em mãos
+<br>
+<input type="radio" name="entrega" value="ligar">Ligar ao chegar
+<br>
+
+<label for="desconto">Cupom de Desconto</label>
+<input type="text" id="desconto" name="Cupom de Desconto">
+<br><br>
+<input type="checkbox" id="zap" name="zap" value="zap">
+<label for="zap">Receber Ofertas Por WhatsApp</label>
+
+</fieldset>
+
+<button type="submit">Finzalizar Compra</button>
+
+</form>
+
+</body>
+</html>
